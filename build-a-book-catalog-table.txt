@@ -1,0 +1,92 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Catalog</title>
+   <style>
+    table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      font-family: Arial, sans-serif;
+    }
+    thead {
+      background-color: #4CAF50;
+      color: white;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+    tbody tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    tfoot {
+      background-color: #eee;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <body>
+  <h1 style="text-align:center;">Miguel’s Book Catalog</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Genre</th>
+        <th>Publication Year</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>The Silent Forest</td>
+        <td>Ana López</td>
+        <td>Mystery</td>
+        <td>2018</td>
+      </tr>
+      <tr>
+        <td>Journey to Mars</td>
+        <td>Carlos Rivera</td>
+        <td>Science Fiction</td>
+        <td>2021</td>
+      </tr>
+      <tr>
+        <td>Cooking with Love</td>
+        <td>María Torres</td>
+        <td>Cooking</td>
+        <td>2015</td>
+      </tr>
+      <tr>
+        <td>History of Guanajuato</td>
+        <td>José Hernández</td>
+        <td>History</td>
+        <td>2010</td>
+      </tr>
+      <tr>
+        <td>Mindful Living</td>
+        <td>Lucía Gómez</td>
+        <td>Self-Help</td>
+        <td>2019</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="4">Total Books: 5</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+
+</html>
+
+** end of index.html **
+
